@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Situation 2</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/highscores.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="highScores" class="flex-center flex-column">
+        <div class="haut"><h1>Situation 2</h1></div>
+        <h1 id="finalScore">Classement</h1>
+        <ul id="highScoresList"></ul>
+
+        <style>
+          .accordion {
+            background-color: #2D2828;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+          }
+          
+
+          .panel {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+          }
+          </style>
+          <div style="background-color: #007BFF;height: 1px;width: 300px;"><hr></div>
+          <h2 style="color: white;">Solution</h2>
+          
+          <button class="accordion active" style="width:auto;align-self: center;margin-bottom: 10px;">Situation</button>
+          <div class="panel">
+            <p><h3 style="text-align: center;">A travaille depuis 3 semaines comme agent d'hygiène à la cantine d'une organisme public de formation professionnelle. Il est notamment chargé de nettoyer les sols, les meubles de rangement et le matériel de cuisine. Il veille en outre à ce que tous les aliments soient correctement stockés et à bonne température.
+              <br>
+              <br>
+          A est d'un naturel très réservé. Il ne parle pas beaucoup à ses collègues. Il évite de leur poser des questions par peur de les déranger. Par exemple, il préfère chercher lui-même où se trouve le matériel plutôt que de demander à ses collègues. Il perd donc beaucoup de temps, même si la qualité de son travail est irréprochable.
+        <br>
+        <br>
+        Alors que A est en train de sortir les poubelles, B et C, deux de ses collègues, parlent de lui.
+        <br>
+        <br>
+        B : "Je ne peu pas continuer à travailler comme ça avec A. A part bonjour et au revoir, il ne dit jamais un mot. C'est pesant."
+        <br>
+        <br>
+        Dans quelle mesure trouvez-vous que chacune des réactions suivantes est adaptée ?</h3></p>
+          </div>
+
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - C : Oui, tu as raison. Il a peut-être des problèmes. Je pense qu'on devrait en parler au responsable."</button>
+          <div class="panel">
+            <p><b>Réaction (-)</b>
+              <h3 style="text-align: center;">La hiérarchie n'a pas à intervenir puisque A respecte ses collègues et effectue correctement son travail. Cette réaction n'est pas la pire car C se soucie du bien-être de ses collègues.</h3>
+            </p>
+          </div>
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - C : "Ecoute, ce n'est pas très grave. Il est comme ça. On ne va pas le changer. Au moins, le travail est bien fait. Après tout, c'est ce qui compte, non ?"</button>
+          <div class="panel">
+            <p><b>Réaction (+)</b>
+              <h3 style="text-align: center;">C adopte une attitude juste en faisant clairement comprendre à B que le comportement de A n'est pas un problème en soi. Cette réaction n'est pas optimale car il n'est pas sûr qu'elle suffise à améliorer l'ambiance de travail.</h3>
+            </p>
+          </div>
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - C : "On pourrait peut-lui proposer de prendre un verre avec nous après le travail ? Cela pourrait être sympa. Qu'en penses-tu ?"</button>
+          <div class="panel">
+            <p><b>Réaction (+ +)</b>
+              <h3 style="text-align: center;">C propose une action pour améliorer la cohésion d'équipe.</h3>
+            </p>
+          </div>
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - C : "Il faut lui laisser le temps de s'habituer. Je pense que dans quelques semaines, cela ira mieux."</button>
+          <div class="panel">
+            <p><b>Réaction (neutre)</b>
+              <h3 style="text-align: center;">Cette réaction laisse les choses en l'état.</h3>
+            </p>
+          </div>
+          <div style="background-color: #007BFF;height: 1px;width: 300px;"><hr></div>
+          
+          <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+          
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+          </script>
+
+        <a href="./situation2.html" class="btn btn-primary"
+          >Recommencer situation 2<i class="fas fa-home"></i
+        ></a>
+        <a href="../index.html" class="btn btn-primary"
+          >Accueil<i class="fas fa-home"></i
+        ></a>
+      </div>
+    </div>
+    <script src="./js/highscores.js"></script>
+  </body>
+</html>

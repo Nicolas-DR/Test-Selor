@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Situation 2</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="quiz" class="justify-center flex-column">
+        <div class="haut">
+          <div id="hud">
+            <div class="hud-item">
+              <div class="progress" id="progressBar">
+                <div
+                  class="progress-bar-animated progress-bar progress-bar-striped"
+                  id="progressBarFull"
+                >
+                  <p id="progressText" class="hud-prefix">Question</p>
+                </div>
+              </div>
+            </div>
+            <h1>Situation 2</h1>
+            <div class="hud-item">
+              <p class="hud-prefix">Score</p>
+              <p class="hud-main-text" id="score">0</p>
+            </div>
+          </div>
+        </div>
+
+        
+            <style>
+              .accordion {
+                background-color: #2D2828;
+                color: white;
+                cursor: pointer;
+                padding: 18px;
+                width: auto;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+                margin-left: 20px;
+                align-self: center;
+                margin-bottom: 10px;
+              }
+              
+
+              .panel {
+                padding: 0 18px;
+                display: none;
+                overflow: hidden;
+              }
+              </style>
+              
+              
+              <button class="accordion">Situation</button>
+              <div class="panel">
+                <p><h3 style="text-align: center;">A travaille depuis 3 semaines comme agent d'hygiène à la cantine d'une organisme public de formation professionnelle. Il est notamment chargé de nettoyer les sols, les meubles de rangement et le matériel de cuisine. Il veille en outre à ce que tous les aliments soient correctement stockés et à bonne température.
+                  <br>
+                  <br>
+              A est d'un naturel très réservé. Il ne parle pas beaucoup à ses collègues. Il évite de leur poser des questions par peur de les déranger. Par exemple, il préfère chercher lui-même où se trouve le matériel plutôt que de demander à ses collègues. Il perd donc beaucoup de temps, même si la qualité de son travail est irréprochable.
+            <br>
+            <br>
+            Alors que A est en train de sortir les poubelles, B et C, deux de ses collègues, parlent de lui.
+            <br>
+            <br>
+            B : "Je ne peu pas continuer à travailler comme ça avec A. A part bonjour et au revoir, il ne dit jamais un mot. C'est pesant."
+            <br>
+            <br>
+            Dans quelle mesure trouvez-vous que la réaction suivante est adaptée ?</h3></p>
+              </div>
+
+              <div style="background-color: #007BFF;height: 1px;"><hr></div>
+
+              
+              <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+              
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+              </script>
+
+        <p id="question">Question</p>
+        <div class="row" style="text-align: center">
+          <div class="col-sm">
+            <button class="choice-text btn btn-primary" data-number="1">
+              Choix 1
+            </button>
+          </div>
+          <div class="col-sm">
+            <button class="choice-text btn btn-primary" data-number="2">
+              Choix 2
+            </button>
+          </div>
+          <div class="col-sm">
+            <button class="choice-text btn btn-primary" data-number="3">
+              Choix 3
+            </button>
+          </div>
+          <div class="col-sm">
+            <button class="choice-text btn btn-primary" data-number="4">
+              Choix 4
+            </button>
+          </div>
+          <div class="col-sm">
+            <button class="choice-text btn btn-primary" data-number="5">
+              Choix 5
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/quiz.js"></script>
+  </body>
+</html>
