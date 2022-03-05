@@ -4,6 +4,8 @@ body {
 
 .row {margin: 10px;}
 
+title {height: 10px;}
+
 /*bouton pas fonctionnel red*/
 .red {background-color: #4F0000;
   color: gray!important;
@@ -39,7 +41,7 @@ p {
 }
 h2 {
   font-size: 4.2rem;
-  margin-bottom: 4rem;
+  /*margin-bottom: 4rem;*/
 }
 .container {
   width: 100vw;
