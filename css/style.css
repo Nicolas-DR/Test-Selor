@@ -41,8 +41,11 @@ p {
 }
 h2 {
   font-size: 4.2rem;
-
+  /*margin-bottom: 4rem;*/
+  align-self: center;
 }
+
+p {margin: 0 10px;}
 .container {
   width: 100vw;
   display: flex;
