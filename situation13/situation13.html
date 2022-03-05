@@ -1,0 +1,98 @@
+<!-- 
+    
+Développer par Nicolas De Roose pour le cours d'Application multimédia de monsieur Jamoulle Frédéric. 2019/20
+
+source du quiz : https://www.faitscovid19.ca/fr/quiz
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Situation 13</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="home" class="flex-column flex-center">
+        <div class="haut"><h2>Situation 13</h2></div>
+
+        <style>
+          .accordion {
+            background-color: #2D2828;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: auto;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            margin-left: 20px;
+            align-self: center;
+            margin-bottom: 10px;
+          }
+          
+
+          .panel {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+          }
+          </style>
+          
+          
+          <button class="accordion">Voir la Situation 13</button>
+          <div class="panel">
+            <p><h3 style="text-align: center;">A faire</h3></p>
+          </div>
+
+          <div style="background-color: #007BFF;height: 1px;"><hr></div>
+
+          
+          <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+          
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+          </script>
+
+        <div class="row">
+          <div class="col-sm">
+            <a href="./quiz.html" class="btn btn-primary">Commencer</a>
+          </div>
+          <div class="col-sm">
+            <a
+              href="./highscores.html"
+              id="highscore-btn"
+              class="btn btn-warning"
+              >Classement<i class="fal fa-crown"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <a href="../index.html" class="btn btn-primary">Accueil</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

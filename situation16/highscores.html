@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Situation 16</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/highscores.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="highScores" class="flex-center flex-column">
+        <div class="haut"><h2>Situation 16</h2></div>
+        <h1 id="finalScore">Classement</h1>
+        <ul id="highScoresList"></ul>
+
+        <style>
+          .accordion {
+            background-color: #2D2828;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+          }
+          
+
+          .panel {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+          }
+          </style>
+          <div style="background-color: #007BFF;height: 1px;width: 300px;"><hr></div>
+          <h2 style="color: white;">Solution</h2>
+          
+          <button class="accordion active" style="width:auto;align-self: center;margin-bottom: 10px;">Situation</button>
+          <div class="panel">
+            <p><h3 style="text-align: center;">A faire</h3></p>
+          </div>
+
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - A faire</button>
+          <div class="panel">
+            <p><b>Réaction ( )</b>
+              <h3 style="text-align: center;">A faire</h3>
+            </p>
+          </div>
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - A faire</button>
+          <div class="panel">
+            <p><b>Réaction ( )</b>
+              <h3 style="text-align: center;">A faire</h3>
+            </p>
+          </div>
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - A faire</button>
+          <div class="panel">
+            <p><b>Réaction ( )</b>
+              <h3 style="text-align: center;">A faire</h3>
+            </p>
+          </div>
+          <button class="accordion" style="width:auto;align-self: center;margin-bottom: 10px;">Réaction - A faire</button>
+          <div class="panel">
+            <p><b>Réaction ( )</b>
+              <h3 style="text-align: center;">A faire</h3>
+            </p>
+          </div>
+          <div style="background-color: #007BFF;height: 1px;width: 300px;"><hr></div>
+          
+          <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+          
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+          </script>
+
+        <a href="./situation16.html" class="btn btn-primary"
+          >Recommencer Situation 16<i class="fas fa-home"></i
+        ></a>
+        <a href="../index.html" class="btn btn-primary"
+          >Accueil<i class="fas fa-home"></i
+        ></a>
+      </div>
+    </div>
+    <script src="./js/highscores.js"></script>
+  </body>
+</html>
