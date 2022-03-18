@@ -3,7 +3,8 @@ body {
 }
 
 .panel {background-color: rgb(70 70 70);
-  margin-bottom: 10px!important;}
+  margin-bottom: 10px!important;
+  margin: 0 18px;}
 
 button:hover {border: solid 1px;}
 button {text-align: center!important;}
