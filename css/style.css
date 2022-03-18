@@ -2,7 +2,7 @@ body {
   background-color: #1d1a1a;
 }
 
-.panel {
+.panel {background-color: rgb(70 70 70);
   margin-bottom: 10px!important;}
 
 .row {margin: 10px;}
