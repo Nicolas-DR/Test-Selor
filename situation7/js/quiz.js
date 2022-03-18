@@ -15,7 +15,16 @@ let availableQuestions = [];
 
 let questions = [
   {
-    question: " : ''A faire''",
+    question: "B : ''Il doit probablement encore être en train de jouer sur son téléphone près de la photocopieuse.''",
+    choice1: "- -",
+    choice2: "-",
+    choice3: "+/-",
+    choice4: "+",
+    choice5: "+ +",
+    answer: 1,
+  },
+  {
+    question: "B : ''Il est parti dans la salle de reprographie il y a un quart d'heure. Je pense qu'il doit encore s'y trouver.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
@@ -24,16 +33,7 @@ let questions = [
     answer: 2,
   },
   {
-    question: " : ''A faire''",
-    choice1: "- -",
-    choice2: "-",
-    choice3: "+/-",
-    choice4: "+",
-    choice5: "+ +",
-    answer: 4,
-  },
-  {
-    question: " : ''A faire''",
+    question: "B : ''Il est occupé toute la matinée avec D. Si tu veux, je lui dis d'aller te voir dès qu'il est de retour.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
@@ -42,13 +42,13 @@ let questions = [
     answer: 5,
   },
   {
-    question: " : ''A faire''",
+    question: "B : ''Malheureusement, je ne pense pas qu'il va pouvoir t'aider ce matin. Il est occupé avec D. Si tu veux, on peut aller la bouger ensemble.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
     choice4: "+",
     choice5: "+ +",
-    answer: 3,
+    answer: 5,
   },
 ];
 
