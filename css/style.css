@@ -5,6 +5,9 @@ body {
 .panel {background-color: rgb(70 70 70);
   margin-bottom: 10px!important;}
 
+button:hover {border: solid 1px;}
+
+
 .row {margin: 10px;}
 
 title {height: 10px;}
