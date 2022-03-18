@@ -15,7 +15,25 @@ let availableQuestions = [];
 
 let questions = [
   {
-    question: " : ''A faire''",
+    question: "A : ''Ce n'est pas étonnant. Tu viens de le secouer. Tu n'as pas vu que c'était marqué fragile ?''",
+    choice1: "- -",
+    choice2: "-",
+    choice3: "+/-",
+    choice4: "+",
+    choice5: "+ +",
+    answer: 1,
+  },
+  {
+    question: "A : ''C'est possible. Le livreur a fait tomber les cartons en claquant la porte. Ce n'est pas de sa faute : la porte ferme mal et les cartons étaient juste à côté.''",
+    choice1: "- -",
+    choice2: "-",
+    choice3: "+/-",
+    choice4: "+",
+    choice5: "+ +",
+    answer: 1,
+  },
+  {
+    question: "A : ''Ça s'est peut-être cassé pendant le transport. Malheureusement, ça arrive. J'aurais dû vérifier avant de signer le bon de livraison.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
@@ -24,31 +42,13 @@ let questions = [
     answer: 2,
   },
   {
-    question: " : ''A faire''",
-    choice1: "- -",
-    choice2: "-",
-    choice3: "+/-",
-    choice4: "+",
-    choice5: "+ +",
-    answer: 4,
-  },
-  {
-    question: " : ''A faire''",
+    question: "A : ''Oui, j'aurais dû le mettre de côté. Il est tombé après que je l'ai réceptionné.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
     choice4: "+",
     choice5: "+ +",
     answer: 5,
-  },
-  {
-    question: " : ''A faire''",
-    choice1: "- -",
-    choice2: "-",
-    choice3: "+/-",
-    choice4: "+",
-    choice5: "+ +",
-    answer: 3,
   },
 ];
 
