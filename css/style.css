@@ -12,6 +12,9 @@ button {text-align: center!important;
   margin: 0 18px 10px 18px!important;
   max-width: 1000px!important;}
 
+#question {max-width: 1000px!important;
+  align-self: center!important;}
+
 
 .row {margin: 10px;}
 
