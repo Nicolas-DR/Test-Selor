@@ -15,7 +15,7 @@ let availableQuestions = [];
 
 let questions = [
   {
-    question: " : ''A faire''",
+    question: "A : ''J'ai déjà vu des gens prendre juste une assiette de légumes. On peut proposer ça. C'est simple, économique et végétarien.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
@@ -24,7 +24,7 @@ let questions = [
     answer: 2,
   },
   {
-    question: " : ''A faire''",
+    question: "A : ''Je veux bien, mais il va falloir que tu me donnes des recettes. Je n'y connais rien à la cuisine végétarienne.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
@@ -33,22 +33,22 @@ let questions = [
     answer: 4,
   },
   {
-    question: " : ''A faire''",
+    question: "A : ''Franchement, ils nous cassent les pieds avec leur lundi vert. Où je vais trouver les recettes ? Je préfère t'avertir tout de suite : si l'entreprise ne me paie pas de formation, ne compte pas sur moi pour les plats végétariens !''",
+    choice1: "- -",
+    choice2: "-",
+    choice3: "+/-",
+    choice4: "+",
+    choice5: "+ +",
+    answer: 2,
+  },
+  {
+    question: "A : ''Je vais voir ce qu'il y a comme recettes sur internet. A mon avis, cela ne doit pas être compliqué. Je vais en essayer une ou deux ce week-end à la maison pour voir ce que cela donne. Si tout le monde survit, c'est bon !''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
     choice4: "+",
     choice5: "+ +",
     answer: 5,
-  },
-  {
-    question: " : ''A faire''",
-    choice1: "- -",
-    choice2: "-",
-    choice3: "+/-",
-    choice4: "+",
-    choice5: "+ +",
-    answer: 3,
   },
 ];
 
