@@ -6,6 +6,7 @@ body {
   margin-bottom: 10px!important;}
 
 button:hover {border: solid 1px;}
+button {text-align: center!important;}
 
 
 .row {margin: 10px;}
