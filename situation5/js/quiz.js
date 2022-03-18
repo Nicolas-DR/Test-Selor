@@ -15,25 +15,16 @@ let availableQuestions = [];
 
 let questions = [
   {
-    question: " : ''A faire''",
+    question: "A : ''Vous n'arrêtez pas de vous plaindre. Si je fais tout cela, c'est pour votre bien.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
     choice4: "+",
     choice5: "+ +",
-    answer: 2,
+    answer: 1,
   },
   {
-    question: " : ''A faire''",
-    choice1: "- -",
-    choice2: "-",
-    choice3: "+/-",
-    choice4: "+",
-    choice5: "+ +",
-    answer: 4,
-  },
-  {
-    question: " : ''A faire''",
+    question: "A : ''Je suis désolé B, mais si on prend les petites routes, on n'arrivera jamais à temps à l'aéroport. En plus, si on ouvre les fenêtres, cela va vite devenir une fournaise à l'intérieur de la voiture et vous risquerez d'avoir un malaise, ce que je ne souhaite pas.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
@@ -42,13 +33,22 @@ let questions = [
     answer: 5,
   },
   {
-    question: " : ''A faire''",
+    question: "A : ''Je suis vraiment désolé B, mais si on ne prend pas l'autoroute, vous allez rater votre avion. Je vous promets qu'au retour, on prendra les petites routes.''",
     choice1: "- -",
     choice2: "-",
     choice3: "+/-",
     choice4: "+",
     choice5: "+ +",
     answer: 3,
+  },
+  {
+    question: "A : ''Je vais baisser un peu la clim. Si vous aviez été prêt quand je suis arrivé, on serait passé par les petites routes. Là, malheureusement, on n'a pas le choix : si vous ne voulez pas rater votre avion, il faut qu'on prenne l'autoroute.''",
+    choice1: "- -",
+    choice2: "-",
+    choice3: "+/-",
+    choice4: "+",
+    choice5: "+ +",
+    answer: 4,
   },
 ];
 
